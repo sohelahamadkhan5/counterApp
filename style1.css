@@ -4,6 +4,8 @@
     background-color: aliceblue;
     font-family: sans-serif;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
 }
 .container{
     width: 50%;
