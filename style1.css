@@ -4,8 +4,10 @@
     background-color: aliceblue;
     font-family: sans-serif;
     box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-user-select: none;
+
+/* chamatkari cheeze for mobile web development 👍💥 */
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
     
 }
 .container{
