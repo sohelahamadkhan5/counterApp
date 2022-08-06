@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+main .container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 99.4vh;
+    /* border: 2px solid green; */
+    justify-content: center;
+    align-items: center;
+    color: #132631;
+}
+.bigfont{
+    font-size: 53px;
+}
+
+.button-container{
+    /* display: flex; */
+    margin-bottom: 32px;
+
+}
+
+.button-container .btn{
+    margin: 0 12px;
+}
+
+#span{
+    font-size: 113px;
+    padding: 23px 0px;
+}
+.btn{
+    width: 130px;
+    height: 36px;
+    /* background-color: #fff;   */
+    color: #132631;
+    border-radius: 12px;
+    border: 3px solid #132631;
+    cursor: pointer;    
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3.2px;
+}
+.button-container button:hover{
+    color: #fff;
+    background-color: #132631;
+}
+.userInputContainer button:hover{
+    color: #fff;
+    background-color: #132631;
+}
+.userInputContainer #userEnteredCount:hover{
+    color: #fff;
+    background-color: #132631;
+}
+#userEnteredCount{
+    text-align: center;
+    width: 160px;
+    height: 36px;
+    /* background-color: #fff;   */
+    color: #132631;
+    border-radius: 12px;
+    border: 3px solid #132631;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1.23px;  
+}
+
+.userInputContainer{
+    display:flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.userInputContainer .userInputItems{
+    margin: 0 12px ;
+}
+
+.userInputContainer .btn{
+    width: 60px;
+    height: 40px;   
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:640px){
+    /* body{
+        align-items: center;
+        width: 315px;
+    } */
+    #increase{
+        order: -1;
+    }
+    #reset{
+        order: 0;
+    }
+    #decrease{
+        order: 1;
+    }
+    .button-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .button-container .btn{
+        margin: 12px 0;
+    }
+
+    .button-container button:hover{
+        background-color: aliceblue;
+        color: #132631;
+    }
+    .userInputContainer button:hover{
+        background-color: aliceblue;
+        color: #132631;
+    }
+
+    .button-container button:active{
+        color: #fff;
+        background-color: #132631;
+    }
+    .userInputContainer button:active{
+        color: #fff;
+        background-color: #132631;
+    }
+
+}
+
+
+
