@@ -47,7 +47,8 @@ addUserCount.onclick=function(){
         count = userEnteredCount.value ;
     }
     checkColor(count);
-    display.innerHTML = count;  
+    display.innerHTML = count; 
+    userEnteredCount.value = " "; 
 };
 
 userEnteredCount.onmouseover = function(){
